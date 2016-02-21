@@ -1,43 +1,50 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		
-		<meta charset="utf-8">
-		<meta http-epquiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, intial-scale=1">
-		<meta name="description" content="">
-		<meta name="Brandon Jaus" content="">
-		
-		<title>{% block title %} | BMJ{% endblock %}</title>
-		
-		<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-		<link href="../static/css.bootstrap.min.css" rel="stylesheet"> 
-		
-		<!-- Custom CSS -->
-		<link href="../static/css/freelancer.css" rel="stylesheet">
-		
-		<!-- Custom Fonts -->
-		<link href="../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-		<link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-		
-	</head>
-	<body id="page-top" class="index">
-	
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{% block title %} | BMJ{% endblock %}</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../static/css/main.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../static/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
 	<!-- Navigation -->
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
-			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header page-scroll">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle navigation</span>
+					<span class="sr-only">Toggle Navigation</span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="#page-top"><i class="fa fa-bar-chart"></i> BMJ</a>
 			</div>
-			
+
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
@@ -45,7 +52,7 @@
 						<a href="#page-top"></a>
 					</li>
 					<li class="page-scroll">
-						<a href="#project">Projects</a>
+						<a href="#portfolio">Portfolio</a>
 					</li>
 					<li class="page-scroll">
 						<a href="#about">About</a>
@@ -58,128 +65,128 @@
 					</li>
 				</ul>
 			</div>
-			<!-- /.navboar-collapse -->
+			<!-- /.navbar-collapse -->
 		</div>
 		<!-- /.container-fluid -->
 	</nav>
-		
+
 	<!-- Header -->
 	<header>
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<img class="img-responsive profile-pic" src="../static/img/profile.png" alt="My profile picture">
+					<img class="img-responsive profile-pic" src="../static/img/profile.png" alt="Picture of Brandon Jaus">
 					<div class="intro-text">
-						<span class="name">Brandon M Jaus</span>
+						<span class="name">Brandon Jaus</span>
 						<hr class="star-light">
-						<span class="skills">Thoughts - Ideas - Opinions</span>
 					</div>
 				</div>
 			</div>
 		</div>
 	</header>
-	
-	<!-- Project Section -->
-	<section id="project">
+
+	<!-- Project Grid Section -->
+	<section id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
-					<h2>Projects</h2>
+					<h2>Portfolio</h2>
 					<hr class="star-primary">
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal1" class="project-link" data-toggle="modal">
+				<div class="col-sm-4 portfolio-item">
+					<a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
 						<div class="caption">
 							<div class="caption-content">
 								<i class="fa fa-search-plus fa-3x"></i>
 							</div>
 						</div>
-						<img src="../static/img/project/cabin.png" class="img-responsive" alt="Project #1">
-					</a>	
-				</div>
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal2" class="project-link" data-toggle="modal">
-						<div class="caption">
-							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../static/img/project/cake.png" class="img-responsive" alt="Project #2">
+						<img src="../static/img/portfolio/cabin.png" class="img-responsive" alt="">
 					</a>
 				</div>
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal3" class="project-link" data-toggle="modal">
-						<div class="caption">
-							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../static/img/project/circus.png" class="img-responsive" alt="Project #3">
-					</a>
-				</div>
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal4" class="project-link" data-toggle="modal">
-						<div class="caption">
-							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../static/img/project/game.png" class="img-responsive" alt="Project #4">
-					</a>
-				</div>
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal5" class="project-link" data-toggle="modal">
-						<div class="caption">
-							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../static/img/project/safe.png" class="img-responsive" alt="Project #5">
-					</a>
-				</div>
-				<div class="col-sm-4 project-item">
-					<a href="#projectModal6" class="project-link" data-toggle="modal">
-						<div class="caption">
-							<div class="caption-content">
-								<i class="fa fa-search-plus fa-3x"></i>
-							</div>
-						</div>
-						<img src="../static/img/project/submarine.png" class="img-responsive" alt="Project #6">
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
-		
-	<!-- About  Section -->
-	<section class="success" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 text-center">
-					<h2>About</h2>
-					<hr class="star-light">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 col-lg-offset-2">
-					<p class="text-justify">Bacon ipsum dolor amet ground round voluptate et, jowl swine sausage doner elit officia salami spare ribs est. Voluptate fugiat do turducken mollit bresaola pariatur. Ullamco cillum excepteur, hamburger turkey aliquip quis minim consectetur filet mignon shank leberkas frankfurter corned beef. Bresaola reprehenderit ipsum biltong cow meatball irure id tempor ham elit, andouille aute jerky do.</p>
-				</div>
-				<div class="col-lg-4 col-lg-offset-2">
-					<p class="text-justify">Meatloaf eu venison nisi occaecat laboris, ut magna strip steak. Spare ribs chuck pancetta reprehenderit jerky shank shoulder veniam ham eu cupim pork belly prosciutto. Nisi incididunt boudin pastrami. Ex chuck biltong sirloin aliqua eu consequat nostrud kevin shank. Picanha minim consequat sint shankle.</p>
-				</div>
-				<div class="col-lg-8 col-lg-offset-2 text-center">
-					<a href="#" class="btn btn-lg btn-outline">
-						<i class="fa fa-download"></i> Download Resume
-					</a>
-				</div>
-			</div>
-		</div>
-	</section>
+				<div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/cake.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="../static/img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-	<!-- Blog Section -->
-	<!-- <section id="blog">
+    <!-- About Section -->
+    <section class="success" id="about">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-lg-12 text-center">
+    				<h2>About</h2>
+    				<hr class="star-light">
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="col-lg-3"></div>
+    			<div class="col-lg-6">
+                    <p class="text-justify">Bacon ipsum dolor amet ground round voluptate et, jowl swine sausage doner elit officia salami spare ribs est. Voluptate fugiat do turducken mollit bresaola pariatur. Ullamco cillum excepteur, hamburger turkey aliquip quis minim consectetur filet mignon shank leberkas frankfurter corned beef. Bresaola reprehenderit ipsum biltong cow meatball irure id tempor ham elit, andouille aute jerky do. Aute officia qui consequat velit landjaeger filet mignon t-bone porchetta turkey hamburger swine. Drumstick sausage t-bone, commodo tail laboris bresaola elit esse incididunt laborum hamburger chicken turkey.</p>
+
+                    <p class="text-justify">Meatloaf eu venison nisi occaecat laboris, ut magna strip steak. Spare ribs chuck pancetta reprehenderit jerky shank shoulder veniam ham eu cupim pork belly prosciutto. Nisi incididunt boudin pastrami. Ex chuck biltong sirloin aliqua eu consequat nostrud kevin shank. Picanha minim consequat sint shankle.</p>
+                </div>
+                <div class="col-lg-3"></div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                	<a href="#" class="btn btn-lg btn-outline">
+                		<i class="fa fa-download"></i> Download Resume
+                	</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+	<section id="blog">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 text-center">
@@ -236,9 +243,9 @@
 						</a>
 						<p class="post-meta">Posted by <a href="#">Brandon Jaus</a> on month dd, yyyy</p>
 					</div>
-					<hr> -->
+					<hr>
 					<!-- Pager -->
-					<!--<ul class="pager">
+					<ul class="pager">
 						<li class="next">
 							<a href="#">Older Posts &rarr;</a>
 						</li>
@@ -246,8 +253,8 @@
 				</div>
 			</div>
 		</div>
-	</section>-->
-	
+	</section>
+
 	<!-- Contact Section -->
 	<section id="contact">
 		<div class="container">
@@ -571,7 +578,7 @@
 	<script src="../static/js/contact_me.js"></script>
 	
 	<!-- Custom There JavaScript -->
-	<script src="../static/js/freelancer.js"></script>
+	<script src="../static/js/script.js"></script>
 	
 	</body>
 </html>
