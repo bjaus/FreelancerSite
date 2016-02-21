@@ -330,7 +330,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-	color: #18bc9c;
+	color: #000;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -455,5 +455,3 @@ footer .footer-below {
 	display: none;
 	opacity: 0;
 }
-
-
