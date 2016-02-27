@@ -455,3 +455,9 @@ footer .footer-below {
 	display: none;
 	opacity: 0;
 }
+
+
+#download-resume,
+#download-resume:hover {
+	color: #2C3E50;
+}
