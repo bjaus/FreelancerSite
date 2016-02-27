@@ -57,7 +57,7 @@ hr.star-light {
 
 hr.star-light:after {
 	color: #fff;
-	background-color: #18bc9c;
+	background-color: #00A05F;
 }
 
 hr.star-primary {
@@ -76,7 +76,7 @@ hr.star-primary:after {
 header {
 	text-align: center;
 	color: #fff;
-	background: #18bc9c;
+	background: #00A05F;
 }
 
 header .container {
@@ -177,7 +177,7 @@ section h2 {
 
 section.success {
 	color: #fff;
-	background: #18bc9c;
+	background: #00A05F;
 }
 
 section.success a,
@@ -186,7 +186,7 @@ section.success a:focus,
 section.success a:active,
 section.success a.active {
 	outline: 0;
-	color: #2c3e50;
+	color: #00A05F;
 }
 
 @media(max-width:767px) {
